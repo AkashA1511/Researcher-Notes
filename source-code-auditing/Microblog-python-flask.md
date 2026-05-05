@@ -64,3 +64,4 @@ def index():
 	- reads page from url, then queries in the database for all posts order by time.
 	- returns html
 
+gonna start soon 
