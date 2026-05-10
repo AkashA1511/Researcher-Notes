@@ -54,3 +54,23 @@ then send GET /my- accout to intruder set null payload and send multiple  reques
 
 --- 
 
+# Lab: Authentication bypass via encryption oracle
+
+Goal : Logic flaw that exposes an encryption oracle to users, login as a admin and delete carlos 
+
+Approach :  
+
+so login using weiner and choose stay login option 
+then Post a two diffrent comment with right email and wrong email 
+then there were two requests `POST /post/comment`  and something `GET /post/comment=id`  so the with id is for decruption and and another one it for encryption 
+and in the id one we changed the cookie-notifications with the session-login one then we got error with weiner and some timestamp ``wiener:1598530205184`` 
+
+copy that timestap and in the another post/commant use the timestamp with the admininstrator:1598530205184 something like that 
+
+then we get a new cookie which we have to decrypt 
+- In Decoder, URL-decode and Base64-decode the cookie.
+- In Burp Repeater, switch to the message editor's "Hex" tab. Select the first 23 bytes, then right-click and select "Delete selected bytes".
+use that cookie to to login as admin 
+Using Burp Repeater, browse to `/admin` and notice the option for deleting users. Browse to `/admin/delete?` 
+
+--- 
