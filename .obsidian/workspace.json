@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Playbooks/SSRF.md",
+                "file": "source-code-auditing/DODODOD.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "SSRF"
+              "title": "DODODOD"
             }
           }
         ]
@@ -188,6 +188,7 @@
   "active": "9bf8680bbf7d99ed",
   "lastOpenFiles": [
     "Labs/Portswigger/RACE Condition.md",
+    "source-code-auditing/DODODOD.md",
     "Playbooks/SSRF.md",
     "Labs/Portswigger/Business-Logic.md",
     "source-code-auditing/Microblog-python-flask.md",
@@ -218,7 +219,6 @@
     "Labs/Portswigger/CSRF/CSRF.md",
     "BugBounty/Notes/METH.md",
     "Resources/Subfinder conf.md",
-    "BugBounty/Notes/Offensive-VC-Notes.md",
     "Resources/bug_bounty_checklist.html",
     "security_reaserch",
     "Application-Security/Web/Appsec",
