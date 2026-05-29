@@ -2062,3 +2062,23 @@ How to detect it
 How to fix it
 ```
 
+---
+1. **Morning Lockdown (60 min no-screen, movement, WHY reading).** This is the queen habit that makes all others possible.
+
+2. **Daily Lab (1 PortSwigger, before office).** Non-negotiable sharpening of the sword.
+
+3. **Daily Hunt (30 min active probing, not passive recon).** Output-focused: 3 endpoints tested, notes taken.
+
+4. **Daily Code/ Tooling (30 min).** Even if it's just refactoring or adding one function.
+
+5. **Weekly Bug Submission (minimum 1 per week).** The act of shipping a report builds the "earner" mindset.
+
+6. **Weekly Job Application (2 applications, personalized).** Track them.
+
+7. **Physical Prime (20 min walk/exercise).** Health is the foundation.
+
+8. **Dopamine Control (no phone in bedroom, no reels, no porn/masturbation, WhatsApp only 2x/day).** This will feel like withdrawal for 2 weeks. Push through.
+
+9. **Nightly Review (score, plan tomorrow, read WHY aloud).** Closes the loop.
+   
+   d
