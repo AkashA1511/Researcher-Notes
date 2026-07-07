@@ -34,3 +34,6 @@ nmap -sT -p- -Pn <target>  # - Completes three-way handshake. Noisier, needs no 
 ```bash
 nmap -sU -p- -Pn --min-rate 5000 <target>  # - UDP is slow. I always set a min rate (`--min-rate`) to speed up.
 ```
+
+---
+Continue with the HTB 
