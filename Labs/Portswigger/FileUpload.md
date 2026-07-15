@@ -75,9 +75,13 @@ Example:
 * **`.htaccess` = Changes server behavior**
 * **`.l33t` = Contains the PHP payload**
 * The attack works because the server trusts user-uploaded `.htaccess` files and allows them to redefine how file extensions are handled.
+---
+
+# LAB : Web shell upload via obfuscated file extension
+
+Goal : php is not allowed Certain file extensions are blacklisted, but this defense can be bypassed using a classic obfuscation technique.
+
+Appproch : use the null method exploit.php%00.jpg 
 
 ---
 
-### Interview One-Liner
-
-> "In this attack, we first upload a malicious `.htaccess` file that instructs Apache to execute a non-standard extension like `.l33t` as PHP. We then upload our PHP payload using that extension. When the payload file is requested, Apache interprets it as PHP, bypassing the blacklist that only blocks `.php` files."
